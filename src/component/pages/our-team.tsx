@@ -4,6 +4,7 @@ import OurTeam2 from '@public/home/our-team-1.jpg';
 import OurTeam3 from '@public/home/our-team-2.jpg';
 import OurTeam4 from '@public/home/our-team-3.jpg'
 import TextBlur from "../text/text-blur";
+import { TextHoverEffect } from "../text/text-hover-effect";
 
 export function OurTeams() {
     const testimonials = [
@@ -30,8 +31,8 @@ export function OurTeams() {
         },
     ];
     return (
-        <div className="h-full md:h-screen flex flex-col items-center justify-center">
-            <TextBlur text="Our Mission" className="text-black md:text-7xl text-5xl flex w-full text-center md:pt-0 pt-24 font-bold px-4" />
+        <div className="h-full md:h-screen flex flex-col items-center justify-center px-4">
+            <TextBlur text="Our Mission" className="text-black md:text-7xl text-5xl flex w-full text-center md:pt-0 pt-24 font-bold px-4 md:pb-12" />
             <AnimatedTestimonials testimonials={testimonials} />
         </div>
     );

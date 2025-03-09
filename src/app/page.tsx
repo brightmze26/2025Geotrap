@@ -3,10 +3,11 @@ import { HeroScrollDemo } from "@/component/pages/hero-scroll";
 import { HomeBackgroundLines } from "@/component/pages/home-background-lines";
 import { ContentStickyScroll } from "@/component/pages/home-content-scroll";
 import { OurTeams } from "@/component/pages/our-team";
-import { TimelineDemo } from "@/component/pages/timeline-component";
+import { TimelineComponent } from "@/component/pages/timeline-component";
 import { PortfolioPage } from "@/component/scroll/slider-scroll";
 import { TextParallaxContentExample } from "@/component/scroll/test-scroll";
 import { SparklesText } from "@/component/text/sparkles";
+import { TextHoverEffect } from "@/component/text/text-hover-effect";
 import MarqueeComponent from "@/component/ui/marquee";
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
       <HomeBackgroundLines />
       {/* <ContentStickyScroll /> */}
       <OurTeams />
-      <TimelineDemo />
+      <TimelineComponent />
       <MarqueeComponent />
       {/* <PortfolioPage />
       <HeroScrollDemo /> */}

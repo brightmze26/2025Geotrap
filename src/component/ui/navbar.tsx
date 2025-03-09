@@ -36,7 +36,7 @@ export function Navbar({ className }: { className?: string }) {
             <div
                 className={cn("fixed inset-x-0 w-full mx-auto z-[999]", `${show ? `top-5 max-w-2xl px-4` : 'top-0 max-w-full'} transition-all duration-500 md:duration-300 ease-in-out`, className)}
             >
-                <Menu setActive={setActive} className={`items-start ${show ? 'rounded-full md:py-6 py-4 border-black' : 'rounded-none'} transition-all duration-100 ease-in-out`}>
+                <Menu setActive={setActive} className={`items-start shadow-2xl ${show ? 'rounded-full md:py-6 py-4 shadow-amber-500' : 'rounded-none'} transition-all duration-100 ease-in-out`}>
                     <Link href={'/'} className={`h-full`}>
                         <Image
                             src={Logo}

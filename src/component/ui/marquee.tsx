@@ -19,15 +19,15 @@ const itemVariants = {
 };
 export default function MarqueeComponent() {
     return (
-        <div className="flex flex-col md:gap-24 gap-12 items-center text-center">
+        <div className="flex flex-col md:gap-24 gap-12 items-center text-center py-12 md:py-24">
             <ScrollFloat
                 animationDuration={1}
                 ease='back.inOut(2)'
                 scrollStart='center bottom+=50%'
                 scrollEnd='bottom bottom-=40%'
                 stagger={0.03}
-                containerClassName="w-full flex items-center justify-center text-center"
-                textClassName="text-black font-bold lg:text-7xl md:text-5xl text-3xl"
+                containerClassName="!py-0 w-full flex items-center justify-center text-center"
+                textClassName="text-black font-bold md:!text-7xl !text-5xl"
             >
                 Trusted By
             </ScrollFloat>

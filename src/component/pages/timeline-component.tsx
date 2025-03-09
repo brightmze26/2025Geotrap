@@ -7,12 +7,12 @@ import RegisterImage from '@public/home/register.jpg'
 import CompeteImage from '@public/home/compete.jpg'
 import FinalImage from '@public/home/final.jpg'
 
-export function TimelineDemo() {
+export function TimelineComponent() {
     const data = [
         {
             title: "10 July - 07 September 2025",
             content: (
-                <div className="flex flex-col gap-8 pb-8 md:pb-20">
+                <div className="flex flex-col gap-2 md:gap-8 pb-8 md:pb-20">
                     <p className="text-neutral-200 text-2xl md:text-5xl font-medium h-full">
                         Registration
                     </p>
@@ -32,7 +32,7 @@ export function TimelineDemo() {
         {
             title: "21 September 2025",
             content: (
-                <div className="flex flex-col gap-8 pb-8 md:pb-20">
+                <div className="flex flex-col gap-2 md:gap-8 pb-8 md:pb-20">
                     <p className="text-neutral-200 text-2xl md:text-5xl font-medium h-full">
                         Start Competition
                     </p>
@@ -52,7 +52,7 @@ export function TimelineDemo() {
         {
             title: "23 September 2025",
             content: (
-                <div className="flex flex-col gap-8 pb-8 md:pb-20">
+                <div className="flex flex-col gap-2 md:gap-8 pb-8 md:pb-20">
                     <p className="text-neutral-200 text-2xl md:text-5xl font-medium h-full">
                         Final
                     </p>
