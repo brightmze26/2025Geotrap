@@ -11,7 +11,7 @@ export default function CasePage() {
   return (
     <div className="font-geist w-full bg-neutral-100">
       <TextBlur
-        text="Essay and Infographic"
+        text="Esai dan Infografis"
         className="text-black md:text-6xl text-5xl flex w-full text-center justify-center py-24 font-bold px-4"
       />
 

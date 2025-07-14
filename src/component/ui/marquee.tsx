@@ -5,17 +5,21 @@ import ScrollFloat from "../text/text-scroll";
 
 const sponsors = [
   "/assets/images/skkmigas.png",
-  "/assets/images/logo1.png",
   "/assets/images/ys.png",
   "/assets/images/petrogas.png",
   "/assets/images/size.png",
   "/assets/images/megatrans.jpg",
   "/assets/images/marimas.png",
-  "/assets/images/kitalulus.jpeg",
+  "/assets/images/kl.png",
+  "/assets/images/skkmigas.png",
+  "/assets/images/iog.png",
+  "/assets/images/piblok.png",
+  "/assets/images/cepu.png",
+  "/assets/images/exxon.png",
   "/assets/images/beam.jpeg",
   "/assets/images/buynana.png",
   "/assets/images/crisbar.jpg",
-  "/assets/images/dept.png",
+  "/assets/images/ojkkk.png",
 ];
 
 const itemVariants = {

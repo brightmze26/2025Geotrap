@@ -60,7 +60,7 @@ export function Navbar({ className }: { className?: string }) {
           </Link>
           <MenuItem setActive={setActive} active={active} item="Competition">
             <div className="text-sm grid grid-cols-1 gap-3">
-              <HoveredLink href="/competition/essay">Essay Infographic</HoveredLink>
+              <HoveredLink href="/competition/essay">Esai dan Infografis</HoveredLink>
               <HoveredLink href="/competition/paper">Paper and Poster</HoveredLink>
               <HoveredLink href="/competition/case">Case Study</HoveredLink>
               <HoveredLink href="/competition/seismic">Seismic Interpretation</HoveredLink>
@@ -80,12 +80,12 @@ export function Navbar({ className }: { className?: string }) {
                 target="_blank"
               >
                 <span className="block md:hidden leading-tight">
-                  Essay and
+                  Esai dan
                   <br />
-                  Infographic
+                  Infografis
                 </span>
                 {/* Teks satu baris untuk desktop */}
-                <span className="hidden md:inline">Essay and Infographic</span>
+                <span className="hidden md:inline">Esai dan Infografis</span>
               </HoveredLink>
               <HoveredLink
                 href="https://docs.google.com/forms/d/e/1FAIpQLScU98-RenAKEShF1lBfJQIfaZQ_O0tj9XWUqap95jH1QgzDdg/viewform"
@@ -106,7 +106,7 @@ export function Navbar({ className }: { className?: string }) {
                 Case Study
               </HoveredLink>
               <HoveredLink
-                href="https://docs.google.com/forms/d/e/1FAIpQLSd5_-wSyfV4F3WSP0XmGHjm5xLXLPpPmSHmqpMIbulbaXYNoQ/viewform"
+                href="https://bit.ly/Pendaftaran_CS-Geotrap2025"
                 target="_blank"
               >
                 <span className="block md:hidden leading-tight">

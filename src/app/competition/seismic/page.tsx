@@ -42,7 +42,7 @@ export default function CasePage() {
           <div className="flex justify-end">
             <a
               className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit flex items-center justify-center"
-              href="https://bit.ly/Guidebook-SI-GEOTRAP2025"
+              href="https://bit.ly/Guidebook_SI-GEOTRAP2025"
               target="_blank"
               rel="noopener noreferrer"
             >
