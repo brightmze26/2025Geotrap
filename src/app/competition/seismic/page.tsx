@@ -19,14 +19,15 @@ export default function CasePage() {
         {/* POSTER SECTION */}
         <div className="col-span-1 md:col-span-4 w-full">
           <div
-            className="relative w-full aspect-[3/4] cursor-pointer rounded-xl overflow-hidden shadow-lg"
+            className="w-full cursor-pointer rounded-xl overflow-hidden shadow-lg"
             onClick={() => setPopupOpen(true)}
           >
             <Image
               src="/assets/images/posterseismic.png" // ganti sesuai nama file posternya
               alt="Seismic"
-              fill
-              className="object-cover object-center"
+              width={400}
+              height={533}
+              className="w-full h-auto object-contain"
             />
           </div>
         </div>
