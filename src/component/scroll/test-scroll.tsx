@@ -9,7 +9,7 @@ export const TextParallaxContentExample = () => {
             <div className="bg-white">
                 <TextParallaxContent
                     imgUrl={PaperImage}
-                    subheading="Geoscience Trip and Competition"
+                    subheading="Geotrap2025"
                     heading="2025"
                 >
                     <PaperAndPosterContent />
