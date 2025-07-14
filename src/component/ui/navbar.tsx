@@ -106,7 +106,7 @@ export function Navbar({ className }: { className?: string }) {
                 Case Study
               </HoveredLink>
               <HoveredLink
-                href="https://bit.ly/Pendaftaran_CS-Geotrap2025"
+                href="https://docs.google.com/forms/d/1iMNQACHof10ZjBO_pom13TyIMXDSisDYCUcAvS1OVDg/viewform?edit_requested=true#settings"
                 target="_blank"
               >
                 <span className="block md:hidden leading-tight">
