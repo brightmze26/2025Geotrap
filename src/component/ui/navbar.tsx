@@ -100,13 +100,13 @@ export function Navbar({ className }: { className?: string }) {
                 <span className="hidden md:inline">Paper and Poster</span>
               </HoveredLink>
               <HoveredLink
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfEbGuGHSLV348jP7KHFOZfUkQINC3XMgeScxalWSATD24lEg/viewform"
+                href="https://docs.google.com/forms/d/1iMNQACHof10ZjBO_pom13TyIMXDSisDYCUcAvS1OVDg/viewform?edit_requested=true#settings"
                 target="_blank"
               >
                 Case Study
               </HoveredLink>
               <HoveredLink
-                href="https://docs.google.com/forms/d/1iMNQACHof10ZjBO_pom13TyIMXDSisDYCUcAvS1OVDg/viewform?edit_requested=true#settings"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSd5_-wSyfV4F3WSP0XmGHjm5xLXLPpPmSHmqpMIbulbaXYNoQ/viewform"
                 target="_blank"
               >
                 <span className="block md:hidden leading-tight">
