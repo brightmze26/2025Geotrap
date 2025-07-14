@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Geotrap",
+  title: "Geotrap 2025",
   description: "Event Himpunan Mahasiswa Geofisika PEDRA ",
   icons: {
     icon: '/assets/images/logo.svg'

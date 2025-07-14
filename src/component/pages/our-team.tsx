@@ -1,39 +1,47 @@
 import { AnimatedTestimonials } from "../ui/testimonial-card";
-import OurTeam1 from '@public/home/pedra-1.jpg'
-import OurTeam2 from '@public/home/our-team-1.jpg';
-import OurTeam3 from '@public/home/our-team-2.jpg';
-import OurTeam4 from '@public/home/our-team-3.jpg'
+import OurTeam1 from "@public/assets/images/pre1.jpg";
+import OurTeam2 from "@public/assets/images/pic8.jpg";
+import OurTeam3 from "@public/assets/images/pic9.jpg";
+import OurTeam4 from "@public/assets/images/pic1.jpg";
+import OurTeam5 from "@public/assets/images/pic2.jpg";
+import OurTeam6 from "@public/assets/images/pic4.jpg";
 import TextBlur from "../text/text-blur";
 import { TextHoverEffect } from "../text/text-hover-effect";
 
 export function OurTeams() {
-    const testimonials = [
-        {
-            name:
-                "Geotrap 2025 challenges participants to test their geospatial skills in creative ways.",
-
-            src: OurTeam1,
-        },
-        {
-            name:
-                "Work in teams to solve complex geospatial problems and showcase your creativity.",
-            src: OurTeam2,
-        },
-        {
-            name:
-                "Open for students, professionals, and enthusiasts from any background.",
-            src: OurTeam3,
-        },
-        {
-            name:
-                "Join Geotrap 2025 and show your geospatial innovation to the world!",
-            src: OurTeam4,
-        },
-    ];
-    return (
-        <div className="h-full md:h-screen flex flex-col items-center justify-center px-4">
-            <TextBlur text="Our Mission" className="text-black md:text-7xl text-5xl flex w-full text-center md:pt-0 pt-24 font-bold px-4 md:pb-12" />
-            <AnimatedTestimonials testimonials={testimonials} />
-        </div>
-    );
+  const testimonials = [
+    {
+      name: "GEOTRAP 2025 is a prestigious geoscience competition.",
+      src: OurTeam1,
+    },
+    {
+      name: "We challenge future leaders to solve national energy issues.",
+      src: OurTeam2,
+    },
+    {
+      name: "Reduce environmental impact through real-world solutions.",
+      src: OurTeam3,
+    },
+    {
+      name: "Promote innovation to support sustainable development.",
+      src: OurTeam4,
+    },
+    {
+      name: "Join as a delegate, let's collaborate, compete, and grow.",
+      src: OurTeam5,
+    },
+    {
+      name: "Lead the change. Shape the future. Be the champion.",
+      src: OurTeam6,
+    },
+  ];
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 pt-24 md:pt-8 md:px-8">
+      <TextBlur
+        text="Our Mission"
+        className="text-black text-3xl sm:text-4xl md:text-6xl font-bold text-center w-full pb-8 md:pb-12"
+      />
+      <AnimatedTestimonials testimonials={testimonials} />
+    </div>
+  );
 }

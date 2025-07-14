@@ -6,9 +6,10 @@ export function HomeBackgroundLines() {
             <h1 className="bg-clip-text text-center text-white text-5xl lg:text-8xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
                 <span className="text-[#adbe73]">GEO</span><span className="text-[#f07137]">TRAP</span> 2025
             </h1>
-            <p className="max-w-4xl mx-auto text-2xl md:text-4xl text-white font-semibold text-center z-20">
-                Let’s give your best in the Geotrap 2025 competition!
-            </p>
+            <i className="max-w-4xl mx-auto text-2xl md:text-4xl text-white font-semibold text-center z-20">
+                "Geoscientist Contribution in Facing Challenges of AI Technology and Sustainable Development"
+
+            </i>
         </BackgroundLines>
     );
 }
