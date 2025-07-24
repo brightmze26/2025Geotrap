@@ -23,7 +23,7 @@ export default function CasePage() {
   onClick={() => setPopupOpen(true)}
 >
   <Image
-    src="/assets/images/posteressay.png"
+    src="/assets/images/posteress.png"
     alt="Essay Poster"
     width={400}
     height={533}
