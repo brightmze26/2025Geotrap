@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import TextBlur from "@/component/text/text-blur"
-import EssayTimeline from "@/component/ui/EssayTimeline"
-import Image from "next/image"
-import { useState } from "react"
+import TextBlur from "@/component/text/text-blur";
+import EssayTimeline from "@/component/ui/EssayTimeline";
+import Image from "next/image";
+import { useState } from "react";
 
 export default function CasePage() {
-  const [popupOpen, setPopupOpen] = useState(false)
+  const [popupOpen, setPopupOpen] = useState(false);
 
   return (
     <div className="font-geist w-full bg-neutral-100">
@@ -19,27 +19,40 @@ export default function CasePage() {
         {/* POSTER SECTION */}
         <div className="col-span-1 md:col-span-4 w-full">
           <div
-  className="w-full cursor-pointer rounded-xl overflow-hidden shadow-lg"
-  onClick={() => setPopupOpen(true)}
->
-  <Image
-    src="/assets/images/posteress.png"
-    alt="Essay Poster"
-    width={400}
-    height={533}
-    className="w-full h-auto object-contain"
-  />
-</div>
-
+            className="w-full cursor-pointer rounded-xl overflow-hidden shadow-lg"
+            onClick={() => setPopupOpen(true)}
+          >
+            <Image
+              src="/assets/images/esaitl.jpg"
+              alt="Essay Poster"
+              width={400}
+              height={533}
+              className="w-full h-auto object-contain"
+            />
+          </div>
         </div>
 
         {/* DESCRIPTION */}
         <div className="col-span-1 md:col-span-8">
           <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
-            Lomba Esai dan Infografis merupakan salah satu ajang kompetisi yang diselenggarakan oleh Himpunan Mahasiswa Geofisika “PEDRA” dalam rangkaian acara GEOTRAP 2025. Kompetisi ini mengajak siswa/i SMA/sederajat untuk menuangkan ide-ide inovatif dan kreatif dalam menghadapi tantangan global melalui pemanfaatan teknologi kecerdasan buatan (AI). Di era Revolusi Industri 4.0 menuju Society 5.0, teknologi AI hadir sebagai kekuatan baru untuk membangun masa depan yang lebih berkelanjutan. 
+            Lomba Esai dan Infografis merupakan salah satu ajang kompetisi yang
+            diselenggarakan oleh Himpunan Mahasiswa Geofisika “PEDRA” dalam
+            rangkaian acara GEOTRAP 2025. Kompetisi ini mengajak siswa/i
+            SMA/sederajat untuk menuangkan ide-ide inovatif dan kreatif dalam
+            menghadapi tantangan global melalui pemanfaatan teknologi kecerdasan
+            buatan (AI). Di era Revolusi Industri 4.0 menuju Society 5.0,
+            teknologi AI hadir sebagai kekuatan baru untuk membangun masa depan
+            yang lebih berkelanjutan.
           </p>
           <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
-            Kompetisi ini membuka ruang bagi siswa/i SMA/sederajat untuk mengeksplorasi peran AI dalam memantau bencana alam, mengatasi polusi udara, menjaga keseimbangan sosial di tengah kemajuan teknologi, hingga mempertahankan budaya lokal di era globalisasi. Tidak hanya sekadar kompetisi, ajang ini menjadi wadah untuk mengasah kemampuan berpikir kritis, analisis data, dan kreativitas siswa/i dalam menuangkan gagasan ilmiah ke dalam bentuk esai atau infografis yang inovatif.
+            Kompetisi ini membuka ruang bagi siswa/i SMA/sederajat untuk
+            mengeksplorasi peran AI dalam memantau bencana alam, mengatasi
+            polusi udara, menjaga keseimbangan sosial di tengah kemajuan
+            teknologi, hingga mempertahankan budaya lokal di era globalisasi.
+            Tidak hanya sekadar kompetisi, ajang ini menjadi wadah untuk
+            mengasah kemampuan berpikir kritis, analisis data, dan kreativitas
+            siswa/i dalam menuangkan gagasan ilmiah ke dalam bentuk esai atau
+            infografis yang inovatif.
           </p>
           <div className="flex justify-end">
             <a
@@ -92,5 +105,5 @@ export default function CasePage() {
         </div>
       )}
     </div>
-  )
+  );
 }

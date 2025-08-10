@@ -23,7 +23,7 @@ export default function CasePage() {
             onClick={() => setPopupOpen(true)}
           >
             <Image
-              src="/assets/images/posterpaper.png" // ganti sesuai nama file posternya
+              src="/assets/images/papertl.jpg" // ganti sesuai nama file posternya
               alt="Paper Poster"
               width={400}
               height={533}
