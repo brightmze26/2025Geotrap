@@ -2,15 +2,14 @@
 
 const events = [
   { title: "Registrasi (Batch 1)", date: "14 Juli 2025 – 4 Agustus 2025" },
-  { title: "Registrasi (Batch 2)", date: "5 Agustus 2025 – 12 Agustus 2025" },
-  { title: "Pemberian Case Study", date: "13 Agustus 2025" },
-  { title: "Pengumpulan Essay", date: "13 Agustus 2025 – 27 Agustus 2025" },
-  { title: "Pengumuman Finalis", date: "6 September 2025" },
-  { title: "Pembayaran Final", date: "6 September 2025 – 9 September 2025" },
-  { title: "Pengumpulan Paper dan PPT", date: "10 September 2025 – 9 Oktober 2025" },
+  { title: "Registrasi (Batch 2)", date: "5 – 15 Agustus 2025" },
+  { title: "Pemberian Case Study", date: "16 Agustus 2025" },
+  { title: "Pengumpulan Essay", date: "16 – 29 Agustus 2025" },
+  { title: "Pengumuman Finalis", date: "8 September 2025" },
+  { title: "Pembayaran Final", date: "8 – 11 September 2025" },
+  { title: "Pengumpulan Paper dan PPT", date: "12 September 2025 – 9 Oktober 2025" },
   { title: "Technical Meeting", date: "14 Oktober 2025" },
   { title: "Pelaksanaan Presentasi", date: "17 Oktober 2025" },
-  { title: "Awarding", date: "18 Oktober 2025" },
 ];
 
 export default function CaseTimeline() {

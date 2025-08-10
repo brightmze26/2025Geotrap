@@ -2,8 +2,8 @@
 
 const events = [
   { title: "Registrasi dan Pembayaran (Batch 1)", date: "14 Juli – 10 Agustus 2025" },
-  { title: "Registrasi dan Pembayaran (Batch 2)", date: "11 – 18 Agustus 2025" },
-  { title: "Pengumpulan Abstrak", date: "15 Juli – 25 Agustus" },
+  { title: "Registrasi dan Pembayaran (Batch 2)", date: "11 – 23 Agustus 2025" },
+  { title: "Pengumpulan Abstrak", date: "15 Juli – 31 Agustus" },
   { title: "Pengumuman Semifinalis", date: "6 September 2025" },
   { title: "Pengumpulan Full Paper", date: "7 – 28 September 2025" },
   { title: "Pengumuman Finalis", date: "7 Oktober 2025" },

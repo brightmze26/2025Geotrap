@@ -1,11 +1,11 @@
 "use client";
 
 const events = [
-  { title: "Registrasi perlombaan", date: "14 Juli 2025 – 10 Agustus 2025" },
-  { title: "Pengumpulan esai", date: "14 Juli 2025 – 13 Agustus 2025" },
-  { title: "Pengumuman finalis", date: "24 Agustus 2025" },
-  { title: "Pengumpulan infografis", date: "25 Agustus – 3 September 2025" },
-  { title: "Technical Meeting", date: "6 September 2025" },
+  { title: "Registrasi perlombaan", date: "14 Juli 2025 – 15 Agustus 2025" },
+  { title: "Pengumpulan esai", date: "14 Juli 2025 – 18 Agustus 2025" },
+  { title: "Pengumuman finalis", date: "29 Agustus 2025" },
+  { title: "Pengumpulan infografis", date: "30 Agustus – 6 September 2025" },
+  { title: "Technical Meeting", date: "8 September 2025" },
   { title: "Presentasi infografis", date: "13 September 2025" },
   { title: "Pengumuman Pemenang", date: "13 September 2025" },
 ];
